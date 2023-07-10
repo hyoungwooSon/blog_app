@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <title>Main</title>
+
+
+    <style>
+        .bot1{margin-top: 50px;}
+        .img_size{width: 15px; height: 15px;}
+        .bot2{margin-top: 30px; margin-left: 10%;}
+        .le{margin-left: 30px;}
+        .table_wich{margin-left: 11%;}
+        a:link{color:black}
+        a:visited{color:black}
+        a:hover{text-decoration: none;}
+        a:active{color: black;}
+    </style>
+</head>
+<body>
+    <thead>
+        <div class="bot1"><center><h3><a href="/" style="font-weight: bold;">Blog</a></h3></center></div>
+    </thead>
+
+    <tbody>
+        <div class="bot2">
+            
+            <img class="img_size" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAUVBMVEX///8AAADl5eX7+/s6Ojp0dHT29vakpKTR0dHs7Oy2trZKSkrMzMwqKipBQUHo6OhaWlobGxt+fn6Xl5diYmJRUVG+vr6wsLDY2Nh3d3ff398TfhjMAAABuklEQVR4nO3d61LCMBAG0AoCisrFu77/gyqg/7fpjHG35zzBflOStMxOdhgAAAAAAAAAAAAA/sbtIovblnjbu6tM7rYj890/9C55tIf7MQHfepfb5G3EE+xda6PwU1wfe5fa6LgOJtz0rrTZJphw17vQZrvgj7R3nRPEfqbvvcuc4D2U8KZ3mRPchBLue5c5wT6UcNm7zAmWoYTDqnedzVaxgIkXYmwZfvvoXWmjj2jArGd+8Lw/Wx56V9vgENxmfmyzvX0fx34Cf+83m8dVFo+b8B4DAAAAAAAAAPxXyyya0i2ennfXWeyenxYj863zde+tom3sZ5+9y23yGQ+YtYc21j978tK71EYv0YCvvStt9hpMmLEx8eIQC1i/zzvnRnoR207ztnlHG73rP8P667D+XjqD87D+O80M3kuTbqcjvi1m8H041P/Gv+j990tYUzoAAAAAAAAA4B+pfvdl9ftL699BW/4e4fJ3Qedt9I7uN/m69n4F72Sv3+edtX/2JNZDm3cZRhdi/Rkl9efMJD3vT6Jnfv15T/VndtWfuzaD2XkzmH841J9heVZ8DikAAAAAAAAAAABAgy9QnECE9sBfRAAAAABJRU5ErkJggg==">
+            <small><a href="/" style="font-weight: bold;">전체게시글</a></small>
+
+            <img class="img_size le" src="data:image/png;base64,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">
+            <small><a href="../create" style="font-weight: bold;">게시글 작성</a></small>
+        </div>
+        
+        
+        <!--글 불러오기-->
+       
+        
+        <table>
+            {% for turn in check.all %}
+            <hr style="margin-left: 10%;margin-right: 10%;">
+            
+                
+                <tr>
+                    <div class="table_wich" style="font-weight: bold; margin-top: 3%;"><a href="/{{turn.id}}">{{turn.subject}}</a></div>
+                </tr>
+    
+                
+                <tr>
+                    <div class="table_wich" style="margin-bottom: 3%;"><a href="/{{turn.id}}">{{turn.memo}}</a></div>    
+                </tr>
+            
+          
+            {% endfor %}
+        </table>
+       
+        
+    
+    </tbody>
+   
+    
+</body>
+</html>
